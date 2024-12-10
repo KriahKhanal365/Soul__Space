@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soul Space</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Soul Space</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" style="color: black;">
+        <h1>Welcome to Soul Space</h1>
+        <p>Your sanctuary for peace and mindfulness.</p>
+        <button onclick="scrollToSection('about')">Discover More</button>
+    </section>
+
+    <section id="about" class="content-section">
+        <h2>About Us</h2>
+        <p>Soul Space is dedicated to helping you find inner peace through mindfulness practices, meditation, and self-care rituals.</p>
+    </section>
+
+    <section id="services" class="content-section">
+        <h2>Our Services</h2>
+        <ul style="list-style: none;">
+            <li>Meditation Workshops</li>
+            <li>Personalized Wellness Programs</li>
+            <li>Yoga Sessions</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="content-section">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Soul Space. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
